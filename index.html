@@ -592,7 +592,8 @@ footer{
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
   nav{padding:20px 24px;}
-  .hero{grid-template-columns:1fr;padding:120px 24px 60px;}
+  .hero{grid-template-columns:1fr;padding:120px 24px 60px;min-height:0;align-items:stretch;}
+  .hero-left{padding-bottom:0;}
   .hero::before{font-size:100px;bottom:-20px;right:-20px;}
   .hero-right{border-left:none;padding-left:0;padding-top:40px;margin-top:40px;border-top:1px solid var(--border);}
   .wrap{padding:0 24px;}
